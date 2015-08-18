@@ -12,6 +12,7 @@ body {
 	padding-right: 2.275%;
 	color: #F5EDFA;
 	font-family: "RobotoSlab Regular";
+	background-image: url(../images/mainbackground.png);
 }
 
 /* Header */
@@ -177,6 +178,36 @@ footer .footerNote {
 footer .footerNote span {
 	color: rgba(181,178,178,1.00);
 	font-weight: 400;
+}
+
+#skills {
+padding:0;
+margin:0; 
+}
+
+#bar{
+	text-align: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10000;
+	cursor: default;
+	height: auto;
+	background-size: cover;
+	background-image: url(../images/nicebanner.jpg);
+	background-repeat: no-repeat;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 100%;
+ }
+.profileHeader #skills li {
+	margin-top: 0.5em;
+	height: 17px;
+	margin-left: 1em;
 }
 
 /* Media query for Mobile devices*/
