@@ -6,13 +6,15 @@
 body {
 	margin-left: auto;
 	margin-right: auto;
-	width: 92%;
+	width: 66%;
 	max-width: 960px;
-	padding-left: 2.275%;
-	padding-right: 2.275%;
+	padding-left: 5%;
+	padding-right: 5%;
 	color: #F5EDFA;
 	font-family: "RobotoSlab Regular";
 	background-image: url(../images/mainbackground.png);
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 /* Header */
@@ -53,10 +55,15 @@ header .profileHeader h3 {
 	    color: rgba(164, 155, 187, 0.95)
 
 }
-hr {
-	color: #F5EDFA;
+
+hr.style11 {
 	height: 1px;
+	border: none;
+	color: rgba(164,129,191,1.00);
+	background-color: hsla(252,49%,67%,0.42);
 }
+
+
 header .profileHeader p {
 	color: #7C86B7;
 	font-size: 14px;
@@ -206,8 +213,14 @@ margin:0;
  }
 .profileHeader #skills li {
 	margin-top: 0.5em;
-	height: 17px;
+	height: 8px;
 	margin-left: 1em;
+	margin-bottom: 1em;
+}
+#skills li .last {
+	margin-bottom: 2em;
+}
+.profileHeader .style11 {
 }
 
 /* Media query for Mobile devices*/
