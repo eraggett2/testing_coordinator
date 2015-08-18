@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 /* Global Styles */
 
 body {
@@ -9,6 +10,8 @@ body {
 	max-width: 960px;
 	padding-left: 2.275%;
 	padding-right: 2.275%;
+	color: #F5EDFA;
+	font-family: "RobotoSlab Regular";
 }
 
 /* Header */
@@ -38,26 +41,23 @@ header .profilePhoto {
 	clear: both;
 }
 header .profileHeader h1 {
-	font-family: 'Montserrat', sans-serif;
-	color: rgba(146,146,146,1.00);
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 24px;
+	  font-family: "RobotoSlab Bold";
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    color: #B379B2;
+	text-shadow:0.05em 0.075em 0 rgba(0,0,0,0.1);
 }
 header .profileHeader h3 {
 	font-family: sans-serif;
-	color: rgba(146,146,146,1.00);
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 24px;
+	    color: rgba(164, 155, 187, 0.95)
+
 }
 hr {
-	background-color: rgba(208,207,207,1.00);
+	color: #F5EDFA;
 	height: 1px;
 }
 header .profileHeader p {
-	font-family: sans-serif;
-	color: rgba(146,146,146,1.00);
+	color: #7C86B7;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.8;
