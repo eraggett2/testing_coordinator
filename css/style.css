@@ -164,29 +164,13 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	margin-right: 2%;
 }
 /* Footer */
-footer .footerDisclaimer {
-	font-family: sans-serif;
-	font-size: 14px;
-	line-height: 18px;
-	color: rgba(104,103,103,1.00);
-	font-weight: 700;
-}
-footer .footerDisclaimer span {
-	color: rgba(181,178,178,1.00);
-	font-weight: 400;
-}
-footer .footerNote {
-	font-family: sans-serif;
-	font-size: 14px;
-	line-height: 18px;
-	color: rgba(104,103,103,1.00);
-	font-weight: 700;
-}
-footer .footerNote span {
-	color: rgba(181,178,178,1.00);
-	font-weight: 400;
-}
-
+	
+	#footer .left {
+	padding: 2em;
+	text-align: left;
+	background-image: url(file:///Macintosh%20HD/Users/eraggett/Dropbox/samples/images/mainbackground.png);
+ }
+ 
 #skills {
 padding:0;
 margin:0; 
@@ -258,8 +242,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 /* Main content sections */
 .mainContent .section1 {
-	text-align: center;
-    margin-bottom: 10%;
+	display: block;
 }
 .section1 .section1Title, .section2 .section1Title {
 	text-align: center;
